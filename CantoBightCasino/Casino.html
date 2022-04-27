@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="casino.css">
+        <script src="dicegame.js"></script>
+</head>
+<table class="darkTable">
+    <thead>
+    <tr>
+    <th>Wins</th>
+    <th>Losses</th>
+    <th>Rolls</th>
+    <th>Roll Total</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td><span id="wins">0</span></td>
+      <td><span id="losses">0</span></td>
+      <td><span id="rolls">0</span></td>
+      <td><span id="total">0</span></td>
+      </tr>
+    </tbody>
+</table>
+<p><span id="show">0</span></p>
+<h1>An even money bet, made on the first roll of the dice (known as the “come out roll”).<br>
+    You win if a 7 or 11 roll(a natural), or lose if 2, 3, or 12 roll (known as “craps”).<br>
+    Any other number that rolls becomes the “point” and the point must roll again before a 7 to win.
+</h1>
+<video autoplay muted loop id="myVideo">
+    <source src="video.mp4" type="video/mp4">
+  </video>
+<body>
+  
+    <div class="center1">
+        <button id="myBtn" onclick="rollDice();">Test Your Luck!</button>
+    </div>
+
+    <div class="center2">
+        <img id="myImg"  src="dice1.png" width="75px" height="75px">
+        <img id="myImg2" src="dice1.png" width="75px" height="75px">
+    </div>
+
+</body>
+
+</html>
