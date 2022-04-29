@@ -6,8 +6,6 @@ function printdocument(c){
 
 /* if statement for when countdown is complete it plays launch audio*/
     if (c === 0) {
-        var audio1 = new Audio('audio/liftoff.wav');
-        audio1.play();
         document.getElementById("text").innerHTML = "Blast Off!!!";
     }
     //else if for when hits half way mark creates message overlay
