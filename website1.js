@@ -62,22 +62,22 @@ function submit() {
         }
 }
 //reloads the page
-function reload() {
-    location.href = 'C:\\Users\\tyfel\\Desktop\\Javascript Class\\HTML Space Program\\Launchwebsiteproject\\LaunchLogin/Websitelogin.html';
-}
+//function reload() {
+   // location.href = 'Websitelogin.html';
+//}
 
 //transfers to countdown page
-function space() {
-    location.href = 'C:\\Users\\tyfel\\Desktop\\Javascript Class\\HTML Space Program\\Launchwebsiteproject\\Launchpage\\Spacewebsite.html';
-}
+//function space() {
+   // location.href = 'Spacewebsite.html';
+//}
 
-function Home(){
-    location.href = 'C:\\Users\\tyfel\\Desktop\\Javascript Class\\HTML Space Program\\Launchwebsiteproject\\Home\\index.html'
-}
+//function Home(){
+    //location.href = 'index.html'
+//}
 
-function casino(){
-    location.href = 'C:\\Users\\tyfel\\Desktop\\'
-}
+//function casino(){
+   // location.href = ''
+//}
 
 //function Data(){}
 
